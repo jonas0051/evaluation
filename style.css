@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color:black;
+
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#bandeau{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    
+}
+
+#logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: 600;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      white, 
+      goldenrod
+    ) 1 100%;
+    
+}
+
+#logo>img{
+    width: 150px;
+    padding-top: 30px;
+}
+
+#gold{
+    color: goldenrod;
+}
+
+#menu{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#login{
+    border: rgb(0, 0, 0) 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    border-radius: 2px;
+
+}
+
+.compte>p{
+    font-size: 12px;
+}
+
+.iconlogin{
+    width: 20px;
+}
+
+.compte{
+    display: flex;
+    font-size: 15px;
+    margin: 5px;
+    align-items: center;
+    
+}
+#nav{
+    display: flex;
+    
+}
+
+.navtab{
+    border-left: grey 1px solid;
+    border-right: grey 1px solid;
+    font-size: 12px;
+    padding: 15px;
+}
+
+#bonjour{
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main{
+    width: 60%;
+  
+    
+}
+
+#bannierephoto{
+    background-image: url(img/header-page-catalogue.png);
+    height: 220px;
+    background-position: cover;
+    background-size: 100%;
+    margin-top: 15px;
+    box-shadow: 0px 3px 2px 2px  #1c1c1c;
+}
+
+#shop{
+    margin-top: 5px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 35%;
+    margin-bottom: 50px;
+
+}
+
+.gant{
+    width: 260px;
+    height: 260px;
+    background-image: url(img/gant-boxe-2.png);
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 5px 6px rgb(189, 189, 189);
+    
+}
+
+.gant2{
+    width: 260px;
+    height: 260px;
+    background-image: url(img/gant-boxe-1.png);
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 5px 6px rgb(189, 189, 189);
+    
+}
+
+
+.promo{
+    background-color: rgb(17, 17, 17);
+    color: goldenrod;
+    width: 65px;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-left:210px;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.footshop{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.button{
+    
+    height: 25px;
+    width: 120px;
+    background-color: black;
+    margin-top: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reduc{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+    
+.line{
+    text-decoration-line: line-through;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.price{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#ligne{
+    width: 100%;
+    height: 15px;
+    background-color: #1c1c1c;
+    margin-top: -30px;
+}
+
+footer{
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 360px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footext{
+    width: 120px;
+    font-size: 12px;
+    color: white;
+}
+
+.fooicon{
+    text-align: center;
+    margin-right: 15px;
+}
+
+#trust{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 230px;
+    margin-top: 30px;
+    
+    
+}
+.iconsocial{
+    width: 20px;
+    
+
+}
+
+#droits{
+    color: rgb(110, 110, 110);
+    
+}
